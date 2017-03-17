@@ -303,7 +303,7 @@ ge.default_initial_player_state = {
                                    // step (in radians) - the rotation
                                    // increases over time with default event handler
     maxRotSpeed   : 7 * Math.PI / 180,   // Max rotation speed
-    minRotSpeed   : 2 * Math.PI / 180,   // Min rotation speed
+    minRotSpeed   : 2.5 * Math.PI / 180,   // Min rotation speed
     deltaRotSpeed : function(rotSpeed) { // Function to increase rotation speed
         return rotSpeed * 3;
     },
