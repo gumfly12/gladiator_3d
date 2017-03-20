@@ -176,11 +176,11 @@ ge.default_eventHandler = {
         "use strict";
         e = e || window.event;
         switch (e.keyCode) {
-            case 38: state.player.speed =  0.8; break; // Move forward
-            case 40: state.player.speed = -0.8; break; // Move backward
+            case 38: state.player.speed =  0.75; break; // Move forward
+            case 40: state.player.speed = -0.75; break; // Move backward
             case 39:
                 if (e.ctrlKey || e.shiftKey) {
-                    state.player.strafe =  0.8; // Strafe right
+                    state.player.strafe =  0.75; // Strafe right
                 } else {
                     state.player.dir =  1;    // Rotate right
                     if (state.player.rotSpeed < state.player.maxRotSpeed) {
@@ -191,7 +191,7 @@ ge.default_eventHandler = {
                 break;
             case 37:
                 if (e.ctrlKey || e.shiftKey) {
-                    state.player.strafe = -0.8; // Strafe left
+                    state.player.strafe = -0.75; // Strafe left
                 } else {
                     state.player.dir = -1;    // Rotate left
                     if (state.player.rotSpeed < state.player.maxRotSpeed) {
