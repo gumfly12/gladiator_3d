@@ -180,7 +180,7 @@ ge.default_eventHandler = {
             case 40: state.player.speed = -0.8; break; // Move backward
             case 39:
                 if (e.ctrlKey || e.shiftKey) {
-                    state.player.strafe =  1; // Strafe right
+                    state.player.strafe =  0.8; // Strafe right
                 } else {
                     state.player.dir =  1;    // Rotate right
                     if (state.player.rotSpeed < state.player.maxRotSpeed) {
@@ -191,7 +191,7 @@ ge.default_eventHandler = {
                 break;
             case 37:
                 if (e.ctrlKey || e.shiftKey) {
-                    state.player.strafe = -1; // Strafe left
+                    state.player.strafe = -0.8; // Strafe left
                 } else {
                     state.player.dir = -1;    // Rotate left
                     if (state.player.rotSpeed < state.player.maxRotSpeed) {
@@ -303,7 +303,7 @@ ge.default_initial_player_state = {
                                    // step (in radians) - the rotation
                                    // increases over time with default event handler
     maxRotSpeed   : 7 * Math.PI / 180,   // Max rotation speed
-    minRotSpeed   : 2.3 * Math.PI / 180,   // Min rotation speed
+    minRotSpeed   : 2.27 * Math.PI / 180,   // Min rotation speed
     deltaRotSpeed : function(rotSpeed) { // Function to increase rotation speed
         return rotSpeed * 3;
     },
