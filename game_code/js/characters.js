@@ -195,10 +195,6 @@ stfp.main = {
                     "13" : [192, 64],
                     "14" : [192, 192]
                 },
-                floorCeilingTextureAtlas : "walls.png",
-                floorCeilingTextureMapping : {
-                    "-1" : [[64,128], [0,192]] // x and y offset for floor and ceiling on texture atlas
-                },
                 ceilingSolidColor     : "#223322",
                 floorSolidColor       : "#AAAAAA",
                 drawHandler           : ge.bind(stfp.player.draw, stfp.player),
