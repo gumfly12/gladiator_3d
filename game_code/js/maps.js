@@ -16,9 +16,9 @@ stfp.scene = {
         // Panda position
         // [Number of Pandas, X Pos, Y Pos]
         pandas : [
-            [100, 8, 8],
-            [100, 12, 8],
-            [100, 16, 8],
+            [2, 8, 8],
+            [2, 12, 8],
+            [2, 16, 8],
         ],
 
         // Nazi position
