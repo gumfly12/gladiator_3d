@@ -1,4 +1,4 @@
-#Tentative space for name of Commie Killer Game
+# Tentative space for name of Commie Killer Game
 
 [Play the Game ...](https://rawgit.com/navonod2301/gladiator_3d/master/game_code/main.html)
 
