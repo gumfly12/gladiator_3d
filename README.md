@@ -29,6 +29,8 @@ http://lodev.org/cgtutor/index.html
 
 Gladiator 3D is released under the [MIT license](http://mit-license.org).
 
-## How to use
+## How to play
+
+Simply press the link at the top of the README to reach our game
 
 
