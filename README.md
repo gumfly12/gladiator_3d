@@ -1,16 +1,17 @@
-# Gladiator 3D
-
-JavaScript ray casting engine for pseudo 3D games. This implementation is not bound to any library (i.e. works with or without Prototype / JQuery) and should work with all recent browsers which support the canvas element.
+#Tentative space for name of Commie Killer Game
 
 [Play the Game ...](https://rawgit.com/navonod2301/gladiator_3d/master/game_code/main.html)
 
-![Screenshot Game Example](https://github.com/krotik/gladiator_3d/blob/master/examples/game_demo/img/screenshot.png?raw=true)
+<img src='game_code/img/screenshot.png'>
 
-## Author
+## The Game
 
-Gladiator 3D was written by [Matthias Ladkau](http://www.ladkau.de).
+This game uses the Gladiator 3D engine created by [Matthias Ladkau](http://www.ladkau.de).
 
-Based on: 
+Our game has been inspired by games such as Wolfenstein and Doom, and we are using entirely our own assets for this project.
+We have done our best to leave all credit for work on the engine and other RayCasting tutorials originally in the README for
+the engine as stated originally. The base engine is not our work, but all assets, sprites, etc. are our work, and we have
+modified parts of the engine to better suit the game and create a more enjoyable game.
 
 Creating pseudo 3D games with HTML 5 canvas and raycasting tutorial
 by Jacob Seidelin
@@ -30,4 +31,4 @@ Gladiator 3D is released under the [MIT license](http://mit-license.org).
 
 ## How to use
 
-Best take a look in the example folder. There is a simple demo which demonstrates the basic concepts. And there is a more complex game demo which shows a playable game with all of the main mechanics working.
+
