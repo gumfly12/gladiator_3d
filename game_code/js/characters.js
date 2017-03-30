@@ -413,7 +413,7 @@ stfp.Player = ge.Class.create(ge.default_eventHandler, {
 
                     // Formular to decide if the player was hit
                     if (Math.ceil(Math.random()*distance) > distance / 3) {
-                        var hit = Math.ceil(23 / distance, 7);
+                        var hit = Math.random(200 / distance);
                         if (this.health <= hit) {
                             this.kill(ctx);
                             return;
